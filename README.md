@@ -32,7 +32,7 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/YOUR_USERNAME/mcp-sample-server.git
+git clone https://github.com/yukinaka/mcp-sample-server.git
 cd mcp-sample-server
 
 # 依存関係をインストール
@@ -74,7 +74,7 @@ npm install -g mcp-sample-server
   "mcpServers": {
     "sample": {
       "command": "npx",
-      "args": ["-y", "github:YOUR_USERNAME/mcp-sample-server"]
+      "args": ["-y", "github:yukinaka/mcp-sample-server"]
     }
   }
 }
@@ -123,7 +123,7 @@ git init
 git add .
 git commit -m "Initial commit: MCP sample server"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/mcp-sample-server.git
+git remote add origin https://github.com/yukinaka/mcp-sample-server.git
 git push -u origin main
 ```
 
