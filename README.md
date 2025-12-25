@@ -6,8 +6,8 @@
 
 - **MCPクライアント**: このサーバーと対話するための自然言語クライアント
   - OpenAI APIを使用して自然言語でMCPツールを実行
-  - リポジトリ: `mcp-client` (同じリポジトリ内)
-  - 詳細: [mcp-client/README.md](../mcp-client/README.md)
+  - GitHubリポジトリ: [yukinaka/mcp-client](https://github.com/yukinaka/mcp-client)
+  - ローカルパス: `../mcp-client/`
 
 ## 機能
 
