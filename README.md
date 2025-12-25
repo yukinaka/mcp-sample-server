@@ -45,7 +45,7 @@ npm run build
 ### npmパッケージとしてインストール（公開後）
 
 ```bash
-npm install -g mcp-sample-server
+npm install -g @yukinaka/mcp-sample-server
 ```
 
 ## 使い方
@@ -87,7 +87,7 @@ npm install -g mcp-sample-server
   "mcpServers": {
     "sample": {
       "command": "npx",
-      "args": ["-y", "mcp-sample-server"]
+      "args": ["-y", "@yukinaka/mcp-sample-server"]
     }
   }
 }
