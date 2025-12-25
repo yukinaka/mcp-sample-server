@@ -2,6 +2,13 @@
 
 シンプルなModel Context Protocol (MCP)サーバーのサンプル実装です。
 
+## 関連プロジェクト
+
+- **MCPクライアント**: このサーバーと対話するための自然言語クライアント
+  - OpenAI APIを使用して自然言語でMCPツールを実行
+  - リポジトリ: `mcp-client` (同じリポジトリ内)
+  - 詳細: [mcp-client/README.md](../mcp-client/README.md)
+
 ## 機能
 
 このMCPサーバーは以下の機能を提供します：
@@ -49,6 +56,18 @@ npm install -g @odenalexbs/mcp-sample-server
 ```
 
 ## 使い方
+
+### MCPクライアントで使用する（推奨）
+
+このサーバーには、OpenAI APIを使用した自然言語クライアントが付属しています。
+
+```bash
+cd ../mcp-client
+npm install
+npm start
+```
+
+詳細は[mcp-client/README.md](../mcp-client/README.md)を参照してください。
 
 ### Claude Codeで使用する
 
