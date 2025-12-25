@@ -1,5 +1,5 @@
 {
-  "name": "@yukinaka/mcp-sample-server",
+  "name": "@odenalexbs/mcp-sample-server",
   "version": "1.0.2",
   "description": "A simple MCP server example with basic tools and resources",
   "type": "module",
