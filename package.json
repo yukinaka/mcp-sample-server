@@ -1,6 +1,6 @@
 {
   "name": "@odenalexbs/mcp-sample-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple MCP server example with basic tools and resources",
   "type": "module",
   "main": "dist/index.js",
